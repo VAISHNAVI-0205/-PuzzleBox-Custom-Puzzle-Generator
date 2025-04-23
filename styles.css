@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  #puzzleContainer {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    gap: 2px;
+  }
+  
+  .piece {
+    cursor: grab;
+    border: 1px solid #ccc;
+    background-size: cover;
+  }
